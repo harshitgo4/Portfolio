@@ -25,6 +25,7 @@
         }
         .workitems{
            // overflow-y: auto;
+           touch-action: pan-x;
             height: 25vmax;
             width: 95%;
             margin: auto;
