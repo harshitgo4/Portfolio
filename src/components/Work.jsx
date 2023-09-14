@@ -8,7 +8,7 @@ const Work = () => {
       <h2>Work</h2>
       <section>
         <article>
-            <Carousel showThumbs={false} showArrows={false} swipeable={true} showIndicators={false} stopOnHover={true}infiniteLoop={true} transitionTime={1}interval={2000}autoPlay={true}>
+            <Carousel showThumbs={false} showArrows={false} swipeable={false}  stopOnHover={true}infiniteLoop={true} transitionTime={1}interval={2000}autoPlay={true} swipeScrollTolerance={true}  showIndicators={true}>
             {
                 data.projects.map(i=>(
                     <div key={i.title} className='workitems'>
