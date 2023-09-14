@@ -344,10 +344,10 @@
       > section {
         > article {
           width: 100%;
-          height: 50%;
+          height: 70%;
         }
         .workItem {
-          height: 30vmax;
+          height: 10vmax;
           box-shadow: 0 0 5px $color1;
           > aside {
             padding: 1rem;
@@ -527,11 +527,11 @@
           justify-content: center;
           >article{
               width: 100%;
-              height: 80%
+              height: 70%
           }
           .workitems{
              // overflow-y: auto;
-              height: 100%;
+              height: 80% ;
               width: 95%;
               margin: auto;
               background-color: rgb(132, 221, 221);
