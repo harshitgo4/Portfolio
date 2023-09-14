@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import 'static.scss';
+@import 'header.scss';
+@import 'home.scss';
+@import 'Work.scss';
+@import 'Timeline.scss';
+@import 'services.scss';
+@import 'testimonials.scss';
+@import 'contacts.scss';
+@import 'Footer.scss';
+@import 'mediaqueries.scss';
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: $text2;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+.disabletbn{
+    cursor:not-allowed !important;
+    background-color: rgb(149, 138, 138)!important;
+}

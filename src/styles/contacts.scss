@@ -1,0 +1,57 @@
+#contact{
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    >section{
+        background-color: rgb(56, 219, 219);
+        width: 100%;
+        height: 100%;
+        >form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            >input,>button{
+                width: 40%;
+                outline: none;
+                border:none;
+                padding: 0.8rem;
+                font :400 0.9rem $text2;
+                margin: 1rem;
+            } 
+            >button{
+                cursor: pointer;
+                background-color: rgb(72, 72, 166);
+                color: white;
+                margin: 3rem;
+                text-transform: uppercase;
+                &:hover{
+                    background-color: rgb(58, 58, 106);
+                }
+            }
+        }
+        >h2{
+            text-align: center;
+            font:600 2.7rem $text2;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin-top:2rem;
+        }
+    }
+    >aside{
+        background-color: rgb(56, 219, 219);
+        >img{
+            object-fit: contain;
+            width: 60%;
+            height: 100%;
+            animation: upanddown 0.8s infinite linear alternate;
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.552));
+        }
+    }
+}
+@keyframes upanddown{
+    to{
+        transform: translateY(-10px);
+    }
+}
